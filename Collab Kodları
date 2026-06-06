@@ -2,7 +2,7 @@ gulsenem="12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama"
 tkm=gulsenem.split(":")
 tkm2=gulsenem.split(" ")
 tkm=gulsenem.split(":")
-tkm2=gulsenem.split(" ")                        #Burak Şahin Tarafından Kodlandı
+tkm2=gulsenem.split(" ")                        
 print(tkm)
 print(tkm2)
 for i in tkm2:
@@ -11,7 +11,7 @@ gulsenem2=["12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklam
 "11:42 İsrail ve ABD İran'ı vurdu! Hamaney nereye götürüldü?",
 "11:12 Hem saldırganlar, hem korkaklar! Terörist İsrail, Lübnan sınırına askeri birlik konuşlandırdı",
 "11:05 THY'den kritik İran kararı: Uçuşlar hakkında açıklama",
-"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",                      #Burak Şahin Tarafından Kodlandı
+"10:49 Engelli ve eski hükümlüler için hibe desteği başvuruları başladı",                     
 "10:30 Terörist İsrail İran'a saldırdı! Azizi: İsrail saldırılarına misilleme yapacağız",
 "10:18 Yol geçen hanı olduk! Edirne ve Kırklareli'nde 11 düzensiz göçmen yakalandı"]
 for gul in gulsenem2:
@@ -31,7 +31,7 @@ for gul in gulsenem2:
   for i in range(len(ayir)):
     if i==0:
       pass
-    elif ayir[i].startswith('THY'):                                #Burak Şahin Tarafından Kodlandı
+    elif ayir[i].startswith('THY'):                               
       ayir[i]="TKMY"
       yazıcı=yazıcı+" "+str(ayir[i])
     else:
