@@ -9,4 +9,4 @@ def tarih_yaz(gun):
 tarih_yaz(30)
 gulsenem="12:16 ABD ve İsrail İran'a saldırdı! Netanyahu'dan ilk açıklama"
 tkm=gulsenem.split(" ")
-print(tkm) #BURAK ŞAHİN TARAFINDAN KODLANDI
+print(tkm)
