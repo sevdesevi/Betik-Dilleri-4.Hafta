@@ -4,7 +4,7 @@ def duzgunlestir(arr):
         isim=''
         for parca in x:
             isim+=(parca.strip()) #boşluk siler.
-        print("======") #BURAK ŞAHİN TARAFINDAN KODLANDI!!
+        print("======") 
         print(isim)
 
 
