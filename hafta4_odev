@@ -10,7 +10,7 @@ for gul in gulsenem2:
   ayir=gul.split(' ')
   yazıcı=' '
   for i in range(len(ayir)):
-    if i==0:                      #BURAK ŞAHİN TARAFINDAN KODLANDI
+    if i==0:                      
       pass
     elif ayir[i].startswith('THY'):
       ayir[i]="TKMY" #Burada thy'den olan elamanı TKMY olarak değiştiriyor
@@ -33,7 +33,7 @@ for gul in gulsenem2:
   ayir=gul.split(' ')
   yazıcı=' '
   for i in range(len(ayir)):
-    if i==0:                      #BURAK ŞAHİN TARAFINDAN KODLANDI
+    if i==0:                   
       pass
     elif ayir[i].startswith('THY'):
       ayir[i]=ayir[i].replace("THY'den", "TKMY") #.replace ile bir elemana atamamız lazım.
